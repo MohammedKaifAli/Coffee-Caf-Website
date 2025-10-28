@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaffeineCove</title>
+    <style>
+        /* Style for the menu */
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the options initially hidden */
+        .options {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+
+        /* Show options when hovering over the menu */
+        .menu:hover .options {
+            display: block;
+            background-color: black;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <!--header-->
+    <div width="100%" height="30px" padding="40px" style="background-color:black;">
+        <h2 height="30px" style="color: white; font-family:serif; font-size:xxX-large;">
+            <center>MKA </center>
+            <span style="color: red; font-size:xx-large; font-family: serif;">
+                <center>COFFEE SHOP</center>
+            </span>
+        </h2>
+        <h3 height="30px" style="color: white; font-family:serif; font-size:x-large;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#home" style="color: white; font-family:sans-serif; font-size: x-large; text-decoration: none;">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="menu" id="menu">
+                <a href="#menu" style="color: white; font-family:sans-serif; font-size: x-large; text-decoration: none;">Menu</a>
+                <div class="options">
+                    <!-- Your menu options go here -->
+                    <div>Hot Coffees</div>
+                    <div>Cold Coffees</div>
+                    <div>Frappuccinos</div>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#order" style="color: white; font-family:sans-serif; font-size: x-large; text-decoration: none;">Order</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#contact" style="color: white; font-family:sans-serif; font-size:x-large; text-decoration: none;">Contact Us</a>
+        </h3>
+    </div>
+    <div>
+        <img width=100% src="images/coffee.png" width="100%">
+    </div>
+    <!--End header-->
+
+    <!--Start Menu-->
+ 
+    <div class="menu" id="menu" width="100%" height="50px" padding="40px" style="background-color: black;padding: 0%;">
+        <div style="background-color:black;height: 50px;">
+            <h3 height="50px" style="color: white ;text-align: center; font-family:sans-serif;font-size:x-large;"><u>Menu</u></h3>
+        </div>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/hot-coffee-circle.png" height="405">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/cold-coffees-circle.png "height="400">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/frappuccino-circle.png" height="400">
+        </div>
+        <div width="100%" height="50px" padding="40px" style="background-color: black;">
+            <h2 style="color: white;font-size:xx-large;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hot Coffees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;Cold Coffees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;Frappuccinos
+            </h2>
+        </div>
+    </div>
+    <!--End Menu-->
+    <!--Start Order-->
+    <br>
+    <div class="order" id="order" width="100%" style="background-color:black;height: 50px;">
+        <h3 width="100%" height="50px" style="color: white ;text-align: center; font-family:sans-serif;font-size:x-large;"><u>Order</u></h3>
+    </div>
+    <div style="width: 18rem;">
+        <table style="border-spacing: 20; align-items: center;">
+            <tr>
+                <td style="border-spacing: 20;" height="100px">
+                    <div class="card-body" style="background-color:#6f4e37">
+                        <img src="images/caramelmacc.jpeg" style="width: 18rem;">
+                        <h5 style="color: white ;font-size: larger;" class="card-title">Caramel Macchiato</h5>
+                        <p class="card-text" style="color: white ;font-size: large;">The Caramel Macchiato is essentially a not-too-sweet vanilla latte topped with caramel.</p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button style="text-align: center;font-size: medium;">Order Now</button>
+                        <br>
+                        <br>
+                    </div>
+                </td>
+                <!-- Add similar code for other items -->
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <!-- Add code for the second row of items -->
+            </tr>
+        </table>
+    </div>
+    <!--End Order-->
+
+    <!--Start Contact Us-->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="contact" id="contact" width="100%" height="50px" padding="40px" style="background-color: black;padding: 0%;">
+        <div style="background-color:black;height: 50px;">
+            <h3 height="50px" style="color: white ;text-align: center; font-family:sans-serif;font-size:x-large;"><u>Contact Us</u></h3>
+        </div>
+        <div style="text-align: center;">
+            <form>
+                <br>
+                <br>
+                <input style="align-self: center; font-size: x-large;border-radius: 10px;text-align: center;" type="text" placeholder="Enter first name">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="font-size: x-large;border-radius: 10px;text-align:center;" placeholder="Enter last name">
+                <br>
+                <br>
+                <br>
+                <input style="font-size:x-large;border-radius: 10px;text-align:center;" type="text" placeholder="Enter email id">
+                <br>
+                <br>
+                <br>
+                <textarea style="font-size: x-large;text-align:center;border-radius:10px;" name="Contact" placeholder="Query/Request" rows="5"></textarea>
+                <br>
+                <br>
+                <br>
+                <button style="background-color:black ;color: white;font-size: x-large;border-radius: 10px;text-align:center;">Submit</button>
+                <br>
+                <br>
+                <br>
+                <hr style="color: white;">
+            </form>
+        </div>
+        <div height="50px">
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img height="40px" src="images/insta.png">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img height="40px" src="images/web.png">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img height="45px" src="images/fb.png">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img height="40px" src="images/twitter.png">
+        </div>
+        <!--End Contact Us-->
+    </body>
+    </html>
